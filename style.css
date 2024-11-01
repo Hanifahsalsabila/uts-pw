@@ -1,0 +1,94 @@
+ /* Reset CSS */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Styling Header */
+  header {
+    background-color: #6295A2;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Hero Section */
+  .hero {
+    background-image: url('img/Alun-alun_Kota_Pekalongan.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    
+  }
+  .hero button {
+    height: 20px;
+    width: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
+  }
+
+  /* Section Daftar Wisata */
+  .daftar-wisata {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .daftar-wisata h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .wisata-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: justify;
+  }
+  .wisata-item img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .wisata-info {
+    padding: 20px;
+    flex: 1;
+  }
+  .wisata-info h3 {
+    font-size: 1.5rem;
+    color: #1e3163;
+    margin-bottom: 10px;
+  }
+  .wisata-info p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #6295A2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
